@@ -21,16 +21,16 @@ KNN and Decision Tree models that achieve 5-fold-cross-validation errors of 0.00
 
 ## Calling Convention:
 ### Examples: 
-loader = Loader()
-dataset_ready = loader.get_merged_datasets()
-loader.print_basic_stats()
-loader.run_knn_crossval()
-loader.run_decision_tree_crossval()
-loader.run_knn_by_date()
-loader.run_decision_tree_by_date()
-loader.run_pca()
-loader.run_Kmeans(k = 5, kmax = 10)
-loader.plotAllRegionsForComparison(['Hawaii','Montana','Idaho','Maine','Wyoming'])
+loader = Loader()  
+dataset_ready = loader.get_merged_datasets()  
+loader.print_basic_stats()  
+loader.run_knn_crossval()  
+loader.run_decision_tree_crossval()  
+loader.run_knn_by_date()  
+loader.run_decision_tree_by_date()  
+loader.run_pca()  
+loader.run_Kmeans(k = 5, kmax = 10)  
+loader.plotAllRegionsForComparison(['Hawaii','Montana','Idaho','Maine','Wyoming'])  
 
 ## Main Methods:
   - The main class is our 'Loader()' class which includes all the methods deployed. Methods in this class include:
